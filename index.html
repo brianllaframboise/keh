@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property of Draco EH</title>
+    <link rel="stylesheet" href="includes/styles/reset.css">
+    <link rel="stylesheet" href="includes/styles/styles.css">
+</head>
+<body>
+    <div id="content">    
+        <div id="intro" class="section">
+            <div id="introContent">
+                <h1 id="MainHeader">~ 김은혜 ~</h1>
+                <p>cookie8py는 자신이 하는 일을 최고로 잘합니다:<br>파이썬, C++, 아두이노, 라스페리 파이,블렌더, 페인팅... 그녀는 놀랍고 아름답습니다!</p>
+            </div>
+        </div>
+
+        <div id="blender" class="section">
+            <div id="blenderContent">
+                <h2 id="MainHeader">~ 블렌더 ~</h2>
+                <p>국가는 청원에 대하여 심사할 의무를 진다. 법률과 적법한 절차에 의하지 아니하고는 처벌·보안처분 또는 강제노역을 받지 아니한다. 종교와 정치는 분리된다. 직전대통령이 없을 때에는 대통령이 지명한다.</p>
+            </div>
+        </div>
+    </div>
+<script>
+    // Make sure all the sections are the window height
+    let sectionArray = document.querySelectorAll(".section");
+    sectionArray.forEach(element => {
+        element.style.height = window.innerHeight + "px";
+    });
+</script>
+</body>
+</html>

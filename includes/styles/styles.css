@@ -64,7 +64,7 @@ h1, h2{
 }
 
 @media (max-width: 375px){
-	#introContent {
+	#introContent, #blenderContent {
 		position: absolute;
 		left:50%;
 		transform: translate(-50%);
